@@ -9,7 +9,7 @@ public class HomeController {
 	public String goHome() {
 		return "home";
 	}
-	public String gitTest(){
+	public String gitTest(String git){
 		return "git";
 	}
 }
